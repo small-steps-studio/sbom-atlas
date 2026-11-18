@@ -1,0 +1,71 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "components": [
+    {
+      "name": "purl-0",
+      "version": "1",
+      "purl": "pkg:npm/a@1"
+    },
+    {
+      "name": "purl-1",
+      "version": "1",
+      "purl": "PKG:npm/b@1"
+    },
+    {
+      "name": "purl-2",
+      "version": "1",
+      "purl": "pkg://npm/c@1"
+    },
+    {
+      "name": "purl-3",
+      "version": "1",
+      "purl": "pkg:///npm/d@1"
+    },
+    {
+      "name": "purl-4",
+      "version": "1",
+      "purl": "Pkg:PyPI/e@1"
+    },
+    {
+      "name": "purl-5",
+      "version": "1",
+      "purl": "pkg:npm"
+    },
+    {
+      "name": "purl-6",
+      "version": "1",
+      "purl": "pkg:/x"
+    },
+    {
+      "name": "purl-7",
+      "version": "1",
+      "purl": "pkg:"
+    },
+    {
+      "name": "purl-8",
+      "version": "1",
+      "purl": "purl:npm/f"
+    },
+    {
+      "name": "purl-9",
+      "version": "1",
+      "purl": "npm/g"
+    },
+    {
+      "name": "purl-10",
+      "version": "1",
+      "purl": "pkg://"
+    },
+    {
+      "name": "purl-11",
+      "version": "1",
+      "purl": " pkg:npm/h"
+    },
+    {
+      "name": "purl-number",
+      "version": "1",
+      "purl": 5
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": 1.5,
+  "components": [
+    {
+      "name": "a",
+      "version": "1"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "name": {
+        "a": 1
+      },
+      "version": 7
+    },
+    "timestamp": [
+      "x"
+    ],
+    "authors": "x",
+    "tools": "x",
+    "manufacturer": "x"
+  }
+}

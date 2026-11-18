@@ -1,0 +1,9 @@
+{
+  "bomFormat": "cyclonedx",
+  "specVersion": "1.5",
+  "components": [
+    {
+      "name": "x"
+    }
+  ]
+}

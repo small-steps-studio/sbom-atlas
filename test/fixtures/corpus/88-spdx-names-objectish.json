@@ -1,0 +1,36 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "name": "rules-doc",
+  "packages": [
+    {
+      "name": "constructor",
+      "versionInfo": "1",
+      "licenseConcluded": "MIT"
+    },
+    {
+      "name": "constructor",
+      "versionInfo": "2",
+      "licenseConcluded": "GPL-2.0-only"
+    },
+    {
+      "name": "__proto__",
+      "versionInfo": "1",
+      "licenseConcluded": "MIT"
+    },
+    {
+      "name": "__proto__",
+      "versionInfo": "2",
+      "licenseConcluded": "GPL-2.0-only"
+    },
+    {
+      "name": "toString",
+      "versionInfo": "1",
+      "licenseConcluded": "MIT"
+    },
+    {
+      "name": "toString",
+      "versionInfo": "2",
+      "licenseConcluded": "GPL-2.0-only"
+    }
+  ]
+}

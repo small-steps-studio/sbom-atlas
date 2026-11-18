@@ -1,0 +1,334 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "web-portal-20",
+  "documentNamespace": "https://example.test/spdx/web-portal-20",
+  "creationInfo": {
+    "created": "2026-02-11T08:30:00Z",
+    "creators": [
+      "Tool: example-scanner-2.0"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-0",
+      "name": "@acme-ui/button",
+      "versionInfo": "0.0.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "Zlib",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/@acme-ui/button@0.0.1"
+        }
+      ],
+      "supplier": "Person: Release Team"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-1",
+      "name": "@acme-ui/button",
+      "versionInfo": "1.1.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/@acme-ui/button@1.1.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2",
+      "name": "fast-hash",
+      "versionInfo": "2.2.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "Zlib",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/fast-hash@2.2.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3",
+      "name": "example.test/mod/router",
+      "versionInfo": "3.3.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Zlib",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/example.test/mod/router@3.3.1"
+        }
+      ],
+      "supplier": "Person: Release Team"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4",
+      "name": "@acme-ui/button",
+      "versionInfo": "0.4.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/@acme-ui/button@0.4.1"
+        }
+      ],
+      "supplier": "Person: Release Team"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-5",
+      "name": "example.test/mod/router",
+      "versionInfo": "1.5.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/example.test/mod/router@1.5.1"
+        }
+      ],
+      "supplier": "Organization: Example Labs",
+      "primaryPackagePurpose": "FILE"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-6",
+      "name": "@acme-ui/button",
+      "versionInfo": "2.6.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "GPL-2.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:example:_acme_ui_button:2.6.1:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-7",
+      "name": "example.test/mod/router",
+      "versionInfo": "3.0.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Zlib",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/example.test/mod/router@3.0.1"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-8",
+      "name": "left-pad-lite",
+      "versionInfo": "0.1.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/left-pad-lite@0.1.1"
+        }
+      ],
+      "supplier": "Person: Release Team"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-9",
+      "name": "Example.Logging",
+      "versionInfo": "1.2.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT AND BSD-3-Clause",
+      "licenseDeclared": "LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Example.Logging@1.2.1"
+        }
+      ],
+      "supplier": "Organization: Example Labs"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-10",
+      "name": "left-pad-lite",
+      "versionInfo": "2.3.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/left-pad-lite@2.3.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-11",
+      "name": "example.test/mod/router",
+      "versionInfo": "3.4.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/example.test/mod/router@3.4.1"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-12",
+      "name": "@acme-ui/button",
+      "versionInfo": "0.5.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT AND BSD-3-Clause",
+      "licenseDeclared": "LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/@acme-ui/button@0.5.1"
+        }
+      ],
+      "supplier": "Organization: Example Labs",
+      "primaryPackagePurpose": "FILE"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-13",
+      "name": "left-pad-lite",
+      "versionInfo": "1.6.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "GPL-2.0-or-later",
+      "licenseDeclared": "Zlib",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/left-pad-lite@1.6.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-14",
+      "name": "Example.Logging",
+      "versionInfo": "2.0.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Zlib",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Example.Logging@2.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-15",
+      "name": "Example.Logging",
+      "versionInfo": "3.1.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Example.Logging@3.1.1"
+        }
+      ],
+      "supplier": "Organization: Example Labs",
+      "primaryPackagePurpose": "FILE"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-16",
+      "name": "Example.Logging",
+      "versionInfo": "0.2.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Example.Logging@0.2.1"
+        }
+      ],
+      "supplier": "Organization: Example Labs",
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-17",
+      "name": "org.example.util/strings",
+      "versionInfo": "1.3.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "GPL-2.0-or-later",
+      "licenseDeclared": "LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.example.util/strings@1.3.1"
+        }
+      ],
+      "supplier": "Person: Release Team"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-18",
+      "name": "tiny-cache",
+      "versionInfo": "2.4.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/tiny-cache@2.4.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-19",
+      "name": "fast-hash",
+      "versionInfo": "3.5.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "MIT",
+      "supplier": "Person: Release Team"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-0"
+    }
+  ]
+}

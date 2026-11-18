@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "components": [
+    {
+      "name": "a",
+      "supplier": {
+        "name": "Example"
+      }
+    },
+    {
+      "name": "b",
+      "supplier": {
+        "name": 5
+      }
+    },
+    {
+      "name": "c",
+      "supplier": "Example"
+    },
+    {
+      "name": "d",
+      "supplier": {
+        "name": ""
+      }
+    },
+    {
+      "name": "e",
+      "purl": 5,
+      "cpe": "cpe:2.3:a:example:e:1:*:*:*:*:*:*:*"
+    },
+    {
+      "name": "f",
+      "purl": "",
+      "cpe": 5
+    }
+  ]
+}

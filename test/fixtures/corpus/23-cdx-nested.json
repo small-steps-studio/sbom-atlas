@@ -1,0 +1,29 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "components": [
+    {
+      "name": "outer",
+      "version": "1",
+      "components": [
+        {
+          "name": "inner",
+          "version": "2",
+          "components": [
+            {
+              "name": "innermost",
+              "version": "3",
+              "licenses": [
+                {
+                  "license": {
+                    "id": "MIT"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

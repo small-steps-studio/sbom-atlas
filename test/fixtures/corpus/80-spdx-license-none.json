@@ -1,0 +1,51 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "name": "rules-doc",
+  "packages": [
+    {
+      "name": "none-over-declared",
+      "versionInfo": "1",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "name": "noassertion-then-declared",
+      "versionInfo": "1",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-only"
+    },
+    {
+      "name": "missing-then-declared",
+      "versionInfo": "1",
+      "licenseDeclared": "Apache-2.0"
+    },
+    {
+      "name": "both-noassertion",
+      "versionInfo": "1",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION"
+    },
+    {
+      "name": "declared-none",
+      "versionInfo": "1",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE"
+    },
+    {
+      "name": "concluded-wins",
+      "versionInfo": "1",
+      "licenseConcluded": "LGPL-2.1-only",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "name": "concluded-number",
+      "versionInfo": "1",
+      "licenseConcluded": 5,
+      "licenseDeclared": "MIT"
+    },
+    {
+      "name": "nothing",
+      "versionInfo": "1"
+    }
+  ]
+}

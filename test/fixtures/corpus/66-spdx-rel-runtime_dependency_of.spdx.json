@@ -1,0 +1,30 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "name": "rules-doc",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-a",
+      "name": "a",
+      "versionInfo": "1",
+      "supplier": "Organization: Example"
+    },
+    {
+      "SPDXID": "SPDXRef-b",
+      "name": "b",
+      "versionInfo": "2"
+    }
+  ],
+  "creationInfo": {
+    "created": "2026-02-11T08:30:00Z",
+    "creators": [
+      "Tool: example-scanner"
+    ]
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-a",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-b"
+    }
+  ]
+}

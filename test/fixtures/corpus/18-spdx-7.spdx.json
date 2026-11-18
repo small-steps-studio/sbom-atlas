@@ -1,0 +1,162 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "web-portal-10",
+  "documentNamespace": "https://example.test/spdx/web-portal-10",
+  "creationInfo": {
+    "created": "2026-02-11T08:30:00Z",
+    "creators": [
+      "Tool: example-scanner-2.0"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-0",
+      "name": "fast-hash",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-1",
+      "name": "Example.Logging",
+      "versionInfo": "1.1.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Zlib",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Example.Logging@1.1.1"
+        }
+      ],
+      "supplier": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2",
+      "name": "fast-hash",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "GPL-2.0-or-later",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:example:fast_hash:2.2.1:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3",
+      "name": "fast-hash",
+      "versionInfo": "3.3.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/fast-hash@3.3.1"
+        }
+      ],
+      "supplier": "Organization: Example Labs"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4",
+      "name": "tidy-csv",
+      "versionInfo": "0.4.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT AND BSD-3-Clause",
+      "licenseDeclared": "Zlib",
+      "supplier": "Organization: Example Labs"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-5",
+      "name": "example.test/mod/router",
+      "versionInfo": "1.5.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/example.test/mod/router@1.5.1"
+        }
+      ],
+      "supplier": "Organization: Example Labs"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-6",
+      "name": "tiny-cache",
+      "versionInfo": "2.6.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/tiny-cache@2.6.1"
+        }
+      ],
+      "supplier": "Organization: Example Labs"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-7",
+      "name": "left-pad-lite",
+      "versionInfo": "3.0.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT AND BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/left-pad-lite@3.0.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-8",
+      "name": "Example.Logging",
+      "versionInfo": "0.1.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Example.Logging@0.1.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-9",
+      "name": "tiny-cache",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:example:tiny_cache:1.2.1:*:*:*:*:*:*:*"
+        }
+      ],
+      "primaryPackagePurpose": "APPLICATION"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-0"
+    }
+  ]
+}

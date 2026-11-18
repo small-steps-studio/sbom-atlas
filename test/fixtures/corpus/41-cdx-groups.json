@@ -1,0 +1,62 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "components": [
+    {
+      "group": "@babel",
+      "name": "core",
+      "version": "7.24.0",
+      "purl": "pkg:npm/%40babel/core@7.24.0"
+    },
+    {
+      "group": "@angular",
+      "name": "core",
+      "version": "17.1.0",
+      "purl": "pkg:npm/%40angular/core@17.1.0"
+    },
+    {
+      "group": "@angular",
+      "name": "core",
+      "version": "16.2.0",
+      "purl": "pkg:npm/%40angular/core@16.2.0"
+    },
+    {
+      "group": "org.apache.commons",
+      "name": "commons-lang3",
+      "version": "3.12.0",
+      "purl": "pkg:maven/org.apache.commons/commons-lang3@3.12.0"
+    },
+    {
+      "group": "org.apache.commons",
+      "name": "commons-lang3",
+      "version": "3.14.0",
+      "purl": "pkg:maven/org.apache.commons/commons-lang3@3.14.0"
+    },
+    {
+      "group": "org.example",
+      "name": "commons-lang3",
+      "version": "1.0.0"
+    },
+    {
+      "group": "acme",
+      "name": "",
+      "version": "1"
+    },
+    {
+      "group": 5,
+      "name": "numeric-group",
+      "version": "1"
+    },
+    {
+      "name": "core",
+      "version": "1.0.0"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "group": "@acme",
+      "name": "portal",
+      "version": "1.0.0"
+    }
+  }
+}

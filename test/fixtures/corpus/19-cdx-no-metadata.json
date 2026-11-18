@@ -1,0 +1,64 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:00000000-0000-4000-8000-000000000005",
+  "version": 1,
+  "components": [
+    {
+      "type": "library",
+      "name": "left-pad-lite-0",
+      "version": "3.5.6",
+      "purl": "pkg:npm/left-pad-lite-0@3.5.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "Proprietary Example Licence"
+          }
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "fast-hash",
+      "version": "3.0.8",
+      "purl": "pkg:cargo/fast-hash@3.0.8",
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "left-pad-lite",
+      "version": "4.5.8",
+      "purl": "pkg:npm/left-pad-lite@4.5.8",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "framework",
+      "name": "tidy-csv-3",
+      "version": "5.19.1",
+      "purl": "pkg:pypi/tidy-csv-3@5.19.1"
+    },
+    {
+      "type": "framework",
+      "name": "@acme-ui/button",
+      "version": "4.2.7",
+      "purl": "pkg:npm/%40acme-ui/button@4.2.7",
+      "licenses": [
+        {
+          "expression": "GPL-2.0-only WITH Classpath-exception-2.0"
+        }
+      ]
+    }
+  ]
+}

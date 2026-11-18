@@ -1,0 +1,348 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "components": [
+    {
+      "name": "expr-00",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "GPL-2.0-only AND (MIT OR Apache-2.0)"
+        }
+      ]
+    },
+    {
+      "name": "expr-01",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "(MIT OR Apache-2.0) AND GPL-3.0-only"
+        }
+      ]
+    },
+    {
+      "name": "expr-02",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "(MIT OR Apache-2.0) AND Unicode-DFS-2016"
+        }
+      ]
+    },
+    {
+      "name": "expr-03",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "MIT OR GPL-3.0-only AND LGPL-2.1-only"
+        }
+      ]
+    },
+    {
+      "name": "expr-04",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "mit and (gpl-2.0-only with classpath-exception-2.0 or lgpl-3.0-only)"
+        }
+      ]
+    },
+    {
+      "name": "expr-05",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "GPL-2.0-only WITH Classpath-exception-2.0"
+        }
+      ]
+    },
+    {
+      "name": "expr-06",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "GPL-2.0-only WITH"
+        }
+      ]
+    },
+    {
+      "name": "expr-07",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "(MIT OR Apache-2.0) WITH Foo"
+        }
+      ]
+    },
+    {
+      "name": "expr-08",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "MIT WITH Foo WITH Bar"
+        }
+      ]
+    },
+    {
+      "name": "expr-09",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "(MIT"
+        }
+      ]
+    },
+    {
+      "name": "expr-10",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "MIT)"
+        }
+      ]
+    },
+    {
+      "name": "expr-11",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "()"
+        }
+      ]
+    },
+    {
+      "name": "expr-12",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "MIT AND"
+        }
+      ]
+    },
+    {
+      "name": "expr-13",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "OR MIT"
+        }
+      ]
+    },
+    {
+      "name": "expr-14",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "MIT OR OR Apache-2.0"
+        }
+      ]
+    },
+    {
+      "name": "expr-15",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "MIT Apache-2.0"
+        }
+      ]
+    },
+    {
+      "name": "expr-16",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "Custom Corp License"
+        }
+      ]
+    },
+    {
+      "name": "expr-17",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "GPL-3.0-only OR Custom Corp License"
+        }
+      ]
+    },
+    {
+      "name": "expr-18",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "LicenseRef-Acme"
+        }
+      ]
+    },
+    {
+      "name": "expr-19",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "MIT\tAND\nBSD-3-Clause"
+        }
+      ]
+    },
+    {
+      "name": "expr-20",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "((((MIT))))"
+        }
+      ]
+    },
+    {
+      "name": "expr-21",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((MIT)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))"
+        }
+      ]
+    },
+    {
+      "name": "expr-22",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "((((((((((((((((((((((((((((((((MIT))))))))))))))))))))))))))))))))"
+        }
+      ]
+    },
+    {
+      "name": "expr-23",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "AGPL-3.0-or-later OR MPL-2.0"
+        }
+      ]
+    },
+    {
+      "name": "expr-24",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "ISC AND 0BSD AND Zlib"
+        }
+      ]
+    },
+    {
+      "name": "expr-25",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "GPL-2.0+"
+        }
+      ]
+    },
+    {
+      "name": "expr-26",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "Apache-2.0+"
+        }
+      ]
+    },
+    {
+      "name": "expr-27",
+      "version": "1",
+      "licenses": [
+        {
+          "expression": "EPL-2.0 AND CDDL-1.1"
+        }
+      ]
+    },
+    {
+      "name": "multi-1",
+      "version": "1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "name": "multi-2",
+      "version": "1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "license": {
+            "name": "Acme Terms"
+          }
+        }
+      ]
+    },
+    {
+      "name": "multi-3",
+      "version": "1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "expression": "(Apache-2.0 OR GPL-2.0-only)"
+        }
+      ]
+    },
+    {
+      "name": "multi-4",
+      "version": "1",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-only"
+          }
+        },
+        {
+          "expression": "MIT OR GPL-2.0-only"
+        }
+      ]
+    },
+    {
+      "name": "multi-5",
+      "version": "1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "expression": "(MIT"
+        }
+      ]
+    },
+    {
+      "name": "entry-empty-license",
+      "version": "1",
+      "licenses": [
+        {
+          "license": {},
+          "expression": "ISC"
+        },
+        {
+          "license": {
+            "id": "",
+            "name": "BSD-3-Clause"
+          }
+        }
+      ]
+    }
+  ]
+}

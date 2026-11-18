@@ -1,0 +1,292 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:00000000-0000-4000-8000-000000000012",
+  "version": 1,
+  "components": [
+    {
+      "type": "library",
+      "name": "org.example.util/strings-0",
+      "version": "2.0.3",
+      "supplier": {
+        "name": "Acme Tools"
+      }
+    },
+    {
+      "type": "library",
+      "name": "@acme-ui/button",
+      "version": "4.6.1",
+      "purl": "pkg:npm/%40acme-ui/button@4.6.1"
+    },
+    {
+      "type": "library",
+      "name": "Example.Logging",
+      "version": "2.19.4",
+      "purl": "pkg:nuget/Example.Logging@2.19.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "framework",
+      "name": "Example.Logging-3",
+      "version": "5.2.4",
+      "purl": "pkg:nuget/Example.Logging-3@5.2.4",
+      "licenses": [
+        {
+          "expression": "(Apache-2.0 AND BSD-2-Clause)"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "fast-hash",
+      "version": "4.7.8",
+      "purl": "pkg:cargo/fast-hash@4.7.8",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "components": [
+        {
+          "type": "library",
+          "name": "example.test/mod/router",
+          "version": "",
+          "licenses": [
+            {
+              "license": {
+                "id": "MPL-2.0"
+              }
+            }
+          ],
+          "components": [
+            {
+              "type": "library",
+              "name": "tiny-cache-411",
+              "version": "1.17.5",
+              "purl": "pkg:gem/tiny-cache-411@1.17.5",
+              "licenses": [
+                {
+                  "license": {
+                    "name": "Proprietary Example Licence"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "library",
+              "name": "example.test/mod/router",
+              "version": "2.16.4",
+              "purl": "pkg:golang/example.test/mod%2Frouter@2.16.4",
+              "licenses": [
+                {
+                  "expression": "(Apache-2.0 AND BSD-2-Clause)"
+                }
+              ],
+              "supplier": {
+                "name": "Example Labs"
+              }
+            }
+          ]
+        },
+        {
+          "type": "library",
+          "name": "org.example.util/strings-42",
+          "version": "2.3.1",
+          "purl": "pkg:maven/org.example.util/strings-42@2.3.1",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT"
+              }
+            }
+          ],
+          "supplier": {
+            "name": "Open Widgets Group"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "left-pad-lite",
+      "version": "2.13.3",
+      "purl": "pkg:npm/left-pad-lite@2.13.3",
+      "licenses": [
+        {
+          "expression": "MIT OR GPL-2.0-only"
+        }
+      ],
+      "supplier": {
+        "name": "Open Widgets Group"
+      }
+    },
+    {
+      "type": "library",
+      "name": "tidy-csv-6",
+      "version": "2.0.3",
+      "purl": "pkg:pypi/tidy-csv-6@2.0.3",
+      "cpe": "cpe:2.3:a:example:tidy_csv:2.0.3:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "example.test/mod/router",
+      "version": "5.1.4",
+      "purl": "pkg:golang/example.test/mod%2Frouter@5.1.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "Proprietary Example Licence"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "fast-hash",
+      "version": "5.14.7",
+      "purl": "pkg:cargo/fast-hash@5.14.7"
+    },
+    {
+      "type": "library",
+      "name": "tidy-csv-9",
+      "version": "5.2.4",
+      "purl": "pkg:pypi/tidy-csv-9@5.2.4"
+    },
+    {
+      "type": "file",
+      "name": "org.example.util/strings",
+      "version": "1.18.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "name": "Proprietary Example Licence"
+          }
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "fast-hash",
+      "version": "5.19.2",
+      "purl": "pkg:cargo/fast-hash@5.19.2",
+      "licenses": [
+        {
+          "expression": "(Apache-2.0 AND BSD-2-Clause)"
+        }
+      ],
+      "supplier": {
+        "name": "Example Labs"
+      },
+      "components": [
+        {
+          "type": "file",
+          "name": "tidy-csv-111",
+          "version": "1.0.6",
+          "purl": "pkg:pypi/tidy-csv-111@1.0.6",
+          "cpe": "cpe:2.3:a:example:tidy_csv:1.0.6:*:*:*:*:*:*:*",
+          "components": [
+            {
+              "type": "library",
+              "name": "tidy-csv",
+              "version": "5.0.7",
+              "purl": "pkg:pypi/tidy-csv@5.0.7",
+              "licenses": [
+                {
+                  "expression": "MIT OR GPL-2.0-only"
+                }
+              ]
+            },
+            {
+              "type": "application",
+              "name": "left-pad-lite",
+              "version": "4.10.8",
+              "purl": "pkg:npm/left-pad-lite@4.10.8",
+              "licenses": [
+                {
+                  "expression": "MIT OR GPL-2.0-only"
+                },
+                {
+                  "license": {
+                    "id": "Apache-2.0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "library",
+          "name": "tidy-csv",
+          "version": "1.7.3",
+          "licenses": [
+            {
+              "license": {
+                "name": "Proprietary Example Licence"
+              }
+            },
+            {
+              "license": {
+                "id": "Apache-2.0"
+              }
+            }
+          ],
+          "supplier": {
+            "name": "Example Labs"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "org.example.util/strings-0",
+      "version": "9.9.9",
+      "supplier": {
+        "name": "Acme Tools"
+      }
+    }
+  ],
+  "metadata": {
+    "timestamp": "2026-02-11T08:30:00Z",
+    "tools": [
+      {
+        "vendor": "Example",
+        "name": "scanner",
+        "version": "2.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "name": "shop-12",
+      "version": "1.12.0"
+    }
+  },
+  "dependencies": [
+    {
+      "ref": "shop-12",
+      "dependsOn": [
+        "org.example.util/strings-0",
+        "pkg:npm/%40acme-ui/button@4.6.1"
+      ]
+    }
+  ]
+}

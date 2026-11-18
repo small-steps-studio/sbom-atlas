@@ -1,0 +1,524 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:00000000-0000-4000-8000-000000000029",
+  "version": 1,
+  "components": [
+    {
+      "type": "library",
+      "name": "tiny-cache-0",
+      "version": "1.4.1",
+      "purl": "pkg:gem/tiny-cache-0@1.4.1",
+      "licenses": [
+        {
+          "expression": "GPL-2.0-only WITH Classpath-exception-2.0"
+        },
+        {
+          "license": {
+            "name": "Proprietary Example Licence"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Example Labs"
+      }
+    },
+    {
+      "type": "library",
+      "name": "tidy-csv",
+      "version": "3.0.1",
+      "purl": "pkg:pypi/tidy-csv@3.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "Example.Logging",
+      "version": "4.4.4",
+      "purl": "pkg:nuget/Example.Logging@4.4.4",
+      "licenses": [
+        {
+          "expression": "MIT OR GPL-2.0-only"
+        }
+      ],
+      "supplier": {
+        "name": "Example Labs"
+      }
+    },
+    {
+      "type": "library",
+      "name": "Example.Logging-3",
+      "version": "4.9.4",
+      "purl": "pkg:nuget/Example.Logging-3@4.9.4",
+      "cpe": "cpe:2.3:a:example:Example_Logging:4.9.4:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0-only"
+          }
+        }
+      ],
+      "components": [
+        {
+          "type": "file",
+          "name": "Example.Logging",
+          "version": "1.6.2",
+          "purl": "pkg:nuget/Example.Logging@1.6.2",
+          "licenses": [
+            {
+              "license": {
+                "name": "Proprietary Example Licence"
+              }
+            }
+          ]
+        },
+        {
+          "type": "library",
+          "name": "Example.Logging",
+          "version": "1.13.2",
+          "purl": "pkg:nuget/Example.Logging@1.13.2",
+          "cpe": "cpe:2.3:a:example:Example_Logging:1.13.2:*:*:*:*:*:*:*",
+          "licenses": [
+            {
+              "license": {
+                "id": "agpl-3.0-or-later"
+              }
+            }
+          ],
+          "supplier": {
+            "name": "Acme Tools"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "left-pad-lite",
+      "version": "2.8.3",
+      "purl": "pkg:npm/left-pad-lite@2.8.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Acme Tools"
+      }
+    },
+    {
+      "type": "library",
+      "name": "org.example.util/strings",
+      "version": "",
+      "purl": "pkg:maven/org.example.util/strings",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "org.example.util/strings-6",
+      "version": "5.5.5",
+      "cpe": "cpe:2.3:a:example:org_example_util_strings:5.5.5:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "framework",
+      "name": "tiny-cache",
+      "version": "2.6.1",
+      "purl": "pkg:gem/tiny-cache@2.6.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "framework",
+      "name": "tidy-csv",
+      "version": "4.13.8",
+      "purl": "pkg:pypi/tidy-csv@4.13.8",
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "example.test/mod/router-9",
+      "version": "5.18.3",
+      "purl": "pkg:golang/example.test/mod%2Frouter-9@5.18.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        },
+        {
+          "expression": "MIT OR GPL-2.0-only"
+        }
+      ],
+      "supplier": {
+        "name": "Open Widgets Group"
+      }
+    },
+    {
+      "type": "file",
+      "name": "tiny-cache",
+      "version": "3.18.3",
+      "purl": "pkg:gem/tiny-cache@3.18.3",
+      "licenses": [
+        {
+          "expression": "GPL-2.0-only WITH Classpath-exception-2.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "example.test/mod/router",
+      "version": "1.6.0",
+      "purl": "pkg:golang/example.test/mod%2Frouter@1.6.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Acme Tools"
+      }
+    },
+    {
+      "type": "file",
+      "name": "example.test/mod/router-12",
+      "version": "4.3.0",
+      "purl": "pkg:golang/example.test/mod%2Frouter-12@4.3.0",
+      "licenses": [
+        {
+          "expression": "GPL-2.0-only WITH Classpath-exception-2.0"
+        }
+      ]
+    },
+    {
+      "type": "framework",
+      "name": "tiny-cache",
+      "version": "5.12.4",
+      "purl": "pkg:gem/tiny-cache@5.12.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "agpl-3.0-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "type": "framework",
+      "name": "@acme-ui/button",
+      "version": "5.13.2",
+      "purl": "pkg:npm/%40acme-ui/button@5.13.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "fast-hash-15",
+      "version": "3.8.5",
+      "purl": "pkg:cargo/fast-hash-15@3.8.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "type": "framework",
+      "name": "@acme-ui/button",
+      "version": "5.3.3",
+      "purl": "pkg:npm/%40acme-ui/button@5.3.3"
+    },
+    {
+      "type": "framework",
+      "name": "fast-hash",
+      "version": "5.1.1",
+      "purl": "pkg:cargo/fast-hash@5.1.1",
+      "cpe": "cpe:2.3:a:example:fast_hash:5.1.1:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        },
+        {
+          "expression": "GPL-2.0-only WITH Classpath-exception-2.0"
+        }
+      ],
+      "supplier": {
+        "name": "Example Labs"
+      }
+    },
+    {
+      "type": "framework",
+      "name": "org.example.util/strings-18",
+      "version": "3.15.4",
+      "purl": "pkg:maven/org.example.util/strings-18@3.15.4",
+      "supplier": {
+        "name": "Example Labs"
+      }
+    },
+    {
+      "type": "framework",
+      "name": "org.example.util/strings",
+      "version": "",
+      "purl": "pkg:maven/org.example.util/strings",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Open Widgets Group"
+      },
+      "components": [
+        {
+          "type": "application",
+          "name": "tidy-csv",
+          "version": "3.5.0",
+          "purl": "pkg:pypi/tidy-csv@3.5.0",
+          "licenses": [
+            {
+              "license": {
+                "id": "LGPL-2.1-or-later"
+              }
+            }
+          ]
+        },
+        {
+          "type": "framework",
+          "name": "@acme-ui/button-192",
+          "version": "4.0.1",
+          "purl": "pkg:npm/%40acme-ui/button-192@4.0.1",
+          "licenses": [
+            {
+              "license": {
+                "id": "ISC"
+              }
+            },
+            {
+              "license": {
+                "name": "Proprietary Example Licence"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "@acme-ui/button",
+      "version": "1.8.0",
+      "purl": "pkg:npm/%40acme-ui/button@1.8.0",
+      "cpe": "cpe:2.3:a:example:_acme_ui_button:1.8.0:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "tiny-cache-21",
+      "version": "5.14.4",
+      "purl": "pkg:gem/tiny-cache-21@5.14.4",
+      "licenses": [
+        {
+          "expression": "MIT OR GPL-2.0-only"
+        }
+      ],
+      "supplier": {
+        "name": "Open Widgets Group"
+      }
+    },
+    {
+      "type": "file",
+      "name": "org.example.util/strings",
+      "version": "5.4.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Open Widgets Group"
+      }
+    },
+    {
+      "type": "framework",
+      "name": "fast-hash",
+      "version": "2.6.7",
+      "purl": "pkg:cargo/fast-hash@2.6.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Open Widgets Group"
+      }
+    },
+    {
+      "type": "library",
+      "name": "tidy-csv-24",
+      "version": "",
+      "purl": "pkg:pypi/tidy-csv-24",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Open Widgets Group"
+      }
+    },
+    {
+      "type": "library",
+      "name": "left-pad-lite",
+      "version": "1.5.2",
+      "purl": "pkg:npm/left-pad-lite@1.5.2",
+      "licenses": [
+        {
+          "expression": "(Apache-2.0 AND BSD-2-Clause)"
+        }
+      ],
+      "supplier": {
+        "name": "Acme Tools"
+      }
+    },
+    {
+      "type": "library",
+      "name": "tidy-csv",
+      "version": "4.16.7",
+      "purl": "pkg:pypi/tidy-csv@4.16.7",
+      "cpe": "cpe:2.3:a:example:tidy_csv:4.16.7:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "id": "agpl-3.0-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "@acme-ui/button-27",
+      "version": "3.1.2",
+      "purl": "pkg:npm/%40acme-ui/button-27@3.1.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "Proprietary Example Licence"
+          }
+        }
+      ]
+    },
+    {
+      "type": "framework",
+      "name": "@acme-ui/button",
+      "version": "1.12.4",
+      "purl": "pkg:npm/%40acme-ui/button@1.12.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "timestamp": "2026-02-11T08:30:00Z",
+    "authors": [
+      {
+        "name": "Release Team"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "name": "shop-29",
+      "version": "1.29.0"
+    }
+  },
+  "dependencies": [
+    {
+      "ref": "shop-29",
+      "dependsOn": [
+        "pkg:gem/tiny-cache-0@1.4.1",
+        "pkg:pypi/tidy-csv@3.0.1"
+      ]
+    }
+  ]
+}

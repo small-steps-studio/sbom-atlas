@@ -1,0 +1,53 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "name": "rules-doc",
+  "packages": [
+    {
+      "name": "second-purl",
+      "versionInfo": "1",
+      "externalRefs": [
+        {
+          "referenceType": "purl",
+          "referenceLocator": ""
+        },
+        {
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/second-purl@1"
+        }
+      ]
+    },
+    {
+      "name": "cpe-only",
+      "versionInfo": "1",
+      "externalRefs": [
+        {
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:example:x:1:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "name": "empty-locator",
+      "versionInfo": "1",
+      "externalRefs": [
+        {
+          "referenceType": "cpe22Type",
+          "referenceLocator": ""
+        },
+        {
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "name": "upper-scheme",
+      "versionInfo": "1",
+      "externalRefs": [
+        {
+          "referenceType": "purl",
+          "referenceLocator": "PKG://pypi/upper-scheme@1"
+        }
+      ]
+    }
+  ]
+}

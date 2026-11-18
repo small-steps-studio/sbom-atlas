@@ -1,0 +1,18 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "components": [
+    {
+      "name": "a|b",
+      "version": "1|2",
+      "licenses": [
+        {
+          "license": {
+            "name": "X | Y"
+          }
+        }
+      ],
+      "purl": "pkg:npm/a%7Cb@1"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "components": [
+    {
+      "name": "see https://example.test/path and www.example.test",
+      "version": "http://example.test",
+      "type": "library",
+      "purl": "pkg://npm/x",
+      "licenses": [
+        {
+          "license": {
+            "name": "https://example.test/license"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WWW.EXAMPLE.TEST",
+      "version": "ftp://example.test/x",
+      "licenses": [
+        {
+          "expression": "www.example.test"
+        }
+      ]
+    },
+    {
+      "name": "awww.example.test",
+      "version": "x.www.example.test"
+    },
+    {
+      "name": "mailto:someone@example.test",
+      "version": "\\://"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "name": "https://example.test/app",
+      "version": "www.1"
+    }
+  }
+}

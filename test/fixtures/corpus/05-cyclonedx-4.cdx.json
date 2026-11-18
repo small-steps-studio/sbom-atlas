@@ -1,0 +1,471 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:00000000-0000-4000-8000-000000000028",
+  "version": 1,
+  "components": [
+    {
+      "type": "framework",
+      "name": "tidy-csv-0",
+      "version": "4.15.6",
+      "purl": "pkg:pypi/tidy-csv-0@4.15.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Acme Tools"
+      }
+    },
+    {
+      "type": "framework",
+      "name": "@acme-ui/button",
+      "version": "",
+      "purl": "pkg:npm/%40acme-ui/button",
+      "licenses": [
+        {
+          "expression": "(Apache-2.0 AND BSD-2-Clause)"
+        }
+      ],
+      "supplier": {
+        "name": "Example Labs"
+      }
+    },
+    {
+      "type": "library",
+      "name": "fast-hash",
+      "version": "",
+      "purl": "pkg:cargo/fast-hash",
+      "licenses": [
+        {
+          "expression": "(Apache-2.0 AND BSD-2-Clause)"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "tiny-cache-3",
+      "version": "3.2.1",
+      "purl": "pkg:gem/tiny-cache-3@3.2.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Example Labs"
+      },
+      "components": [
+        {
+          "type": "library",
+          "name": "org.example.util/strings",
+          "version": "2.2.8",
+          "purl": "pkg:maven/org.example.util/strings@2.2.8",
+          "licenses": [
+            {
+              "license": {
+                "id": "MPL-2.0"
+              }
+            }
+          ],
+          "supplier": {
+            "name": "Acme Tools"
+          }
+        },
+        {
+          "type": "framework",
+          "name": "Example.Logging",
+          "version": "3.18.6",
+          "purl": "pkg:nuget/Example.Logging@3.18.6",
+          "licenses": [
+            {
+              "expression": "(Apache-2.0 AND BSD-2-Clause)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "tiny-cache",
+      "version": "4.8.0",
+      "purl": "pkg:gem/tiny-cache@4.8.0",
+      "supplier": {
+        "name": "Open Widgets Group"
+      }
+    },
+    {
+      "type": "library",
+      "name": "tiny-cache",
+      "version": "4.15.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Open Widgets Group"
+      }
+    },
+    {
+      "type": "application",
+      "name": "left-pad-lite-6",
+      "version": "3.1.4",
+      "purl": "pkg:npm/left-pad-lite-6@3.1.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "agpl-3.0-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "example.test/mod/router",
+      "version": "1.2.5",
+      "purl": "pkg:golang/example.test/mod%2Frouter@1.2.5"
+    },
+    {
+      "type": "library",
+      "name": "org.example.util/strings",
+      "version": "3.13.2",
+      "purl": "pkg:maven/org.example.util/strings@3.13.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Acme Tools"
+      },
+      "components": [
+        {
+          "type": "application",
+          "name": "tiny-cache-81",
+          "version": "4.19.7"
+        },
+        {
+          "type": "library",
+          "name": "org.example.util/strings",
+          "version": "2.17.5",
+          "purl": "pkg:maven/org.example.util/strings@2.17.5",
+          "cpe": "cpe:2.3:a:example:org_example_util_strings:2.17.5:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "left-pad-lite-9",
+      "version": "4.1.0",
+      "purl": "pkg:npm/left-pad-lite-9@4.1.0"
+    },
+    {
+      "type": "file",
+      "name": "@acme-ui/button",
+      "version": "",
+      "purl": "pkg:npm/%40acme-ui/button",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "Example.Logging",
+      "version": "3.9.4",
+      "purl": "pkg:nuget/Example.Logging@3.9.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Example Labs"
+      }
+    },
+    {
+      "type": "application",
+      "name": "tiny-cache-12",
+      "version": "2.12.6",
+      "purl": "pkg:gem/tiny-cache-12@2.12.6",
+      "licenses": [
+        {
+          "expression": "MIT OR GPL-2.0-only"
+        }
+      ],
+      "supplier": {
+        "name": "Acme Tools"
+      }
+    },
+    {
+      "type": "library",
+      "name": "Example.Logging",
+      "version": "1.14.2",
+      "purl": "pkg:nuget/Example.Logging@1.14.2"
+    },
+    {
+      "type": "library",
+      "name": "left-pad-lite",
+      "version": "5.1.8",
+      "purl": "pkg:npm/left-pad-lite@5.1.8",
+      "licenses": [
+        {
+          "expression": "GPL-2.0-only WITH Classpath-exception-2.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "fast-hash-15",
+      "version": "4.19.8",
+      "purl": "pkg:cargo/fast-hash-15@4.19.8",
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Open Widgets Group"
+      }
+    },
+    {
+      "type": "library",
+      "name": "fast-hash",
+      "version": "2.5.2",
+      "purl": "pkg:cargo/fast-hash@2.5.2",
+      "licenses": [
+        {
+          "expression": "(Apache-2.0 AND BSD-2-Clause)"
+        }
+      ],
+      "components": [
+        {
+          "type": "framework",
+          "name": "example.test/mod/router",
+          "version": "2.6.2",
+          "purl": "pkg:golang/example.test/mod%2Frouter@2.6.2",
+          "licenses": [
+            {
+              "license": {
+                "id": "MPL-2.0"
+              }
+            }
+          ],
+          "supplier": {
+            "name": "Open Widgets Group"
+          }
+        },
+        {
+          "type": "library",
+          "name": "org.example.util/strings-162",
+          "version": "4.9.8",
+          "purl": "pkg:maven/org.example.util/strings-162@4.9.8",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT"
+              }
+            }
+          ],
+          "supplier": {
+            "name": "Open Widgets Group"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "tiny-cache",
+      "version": "1.19.3",
+      "purl": "pkg:gem/tiny-cache@1.19.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "tidy-csv-18",
+      "version": "5.0.8",
+      "purl": "pkg:pypi/tidy-csv-18@5.0.8",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        },
+        {
+          "expression": "MIT OR GPL-2.0-only"
+        }
+      ],
+      "supplier": {
+        "name": "Example Labs"
+      }
+    },
+    {
+      "type": "application",
+      "name": "tiny-cache",
+      "version": "5.2.7",
+      "purl": "pkg:gem/tiny-cache@5.2.7",
+      "supplier": {
+        "name": "Acme Tools"
+      }
+    },
+    {
+      "type": "file",
+      "name": "example.test/mod/router",
+      "version": "1.11.3",
+      "purl": "pkg:golang/example.test/mod%2Frouter@1.11.3",
+      "licenses": [
+        {
+          "expression": "(Apache-2.0 AND BSD-2-Clause)"
+        }
+      ]
+    },
+    {
+      "type": "framework",
+      "name": "org.example.util/strings-21",
+      "version": "4.5.6",
+      "purl": "pkg:maven/org.example.util/strings-21@4.5.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "agpl-3.0-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "@acme-ui/button",
+      "version": "1.4.1",
+      "purl": "pkg:npm/%40acme-ui/button@1.4.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "org.example.util/strings",
+      "version": "3.13.5",
+      "purl": "pkg:maven/org.example.util/strings@3.13.5"
+    },
+    {
+      "type": "framework",
+      "name": "tiny-cache-24",
+      "version": "",
+      "purl": "pkg:gem/tiny-cache-24",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "example.test/mod/router",
+      "version": "2.17.5",
+      "purl": "pkg:golang/example.test/mod%2Frouter@2.17.5",
+      "licenses": [
+        {
+          "expression": "GPL-2.0-only WITH Classpath-exception-2.0"
+        }
+      ],
+      "supplier": {
+        "name": "Acme Tools"
+      }
+    },
+    {
+      "type": "file",
+      "name": "left-pad-lite",
+      "version": "2.0.1",
+      "purl": "pkg:npm/left-pad-lite@2.0.1",
+      "cpe": "cpe:2.3:a:example:left_pad_lite:2.0.1:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "left-pad-lite-27",
+      "version": "5.16.4",
+      "purl": "pkg:npm/left-pad-lite-27@5.16.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "agpl-3.0-or-later"
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "timestamp": "2026-02-11T08:30:00Z",
+    "tools": [
+      {
+        "vendor": "Example",
+        "name": "scanner",
+        "version": "2.0"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Release Team"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "name": "shop-28",
+      "version": "1.28.0"
+    }
+  },
+  "dependencies": [
+    {
+      "ref": "shop-28",
+      "dependsOn": [
+        "pkg:pypi/tidy-csv-0@4.15.6",
+        "pkg:npm/%40acme-ui/button"
+      ]
+    }
+  ]
+}

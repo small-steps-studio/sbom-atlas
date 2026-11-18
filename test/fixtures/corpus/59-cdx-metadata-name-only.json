@@ -1,0 +1,18 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "components": [
+    {
+      "name": "a",
+      "version": "1"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "name": "portal",
+      "version": {
+        "a": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "web-portal-15",
+  "documentNamespace": "https://example.test/spdx/web-portal-15",
+  "creationInfo": {
+    "created": "2026-02-11T08:30:00Z",
+    "creators": [
+      "Tool: example-scanner-2.0"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-0",
+      "name": "Example.Logging",
+      "versionInfo": "0.0.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Example.Logging@0.0.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-1",
+      "name": "tidy-csv",
+      "versionInfo": "1.1.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/tidy-csv@1.1.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2",
+      "name": "left-pad-lite",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT AND BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/left-pad-lite@2.2.1"
+        }
+      ],
+      "supplier": "Organization: Example Labs"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3",
+      "name": "left-pad-lite",
+      "versionInfo": "3.3.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "GPL-2.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "Organization: Example Labs"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4",
+      "name": "tidy-csv",
+      "versionInfo": "0.4.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT AND BSD-3-Clause",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/tidy-csv@0.4.1"
+        }
+      ],
+      "primaryPackagePurpose": "APPLICATION"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-5",
+      "name": "tiny-cache",
+      "versionInfo": "1.5.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Zlib",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/tiny-cache@1.5.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-6",
+      "name": "tidy-csv",
+      "versionInfo": "2.6.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT AND BSD-3-Clause",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/tidy-csv@2.6.1"
+        }
+      ],
+      "supplier": "Organization: Example Labs"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-7",
+      "name": "@acme-ui/button",
+      "versionInfo": "3.0.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/@acme-ui/button@3.0.1"
+        }
+      ],
+      "supplier": "Person: Release Team"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-8",
+      "name": "left-pad-lite",
+      "versionInfo": "0.1.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT AND BSD-3-Clause",
+      "licenseDeclared": "LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/left-pad-lite@0.1.1"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-9",
+      "name": "@acme-ui/button",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/@acme-ui/button@1.2.1"
+        }
+      ],
+      "supplier": "Organization: Example Labs"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-10",
+      "name": "@acme-ui/button",
+      "versionInfo": "2.3.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT AND BSD-3-Clause",
+      "licenseDeclared": "LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/@acme-ui/button@2.3.1"
+        }
+      ],
+      "supplier": "Person: Release Team",
+      "primaryPackagePurpose": "FILE"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-11",
+      "name": "Example.Logging",
+      "versionInfo": "3.4.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "GPL-2.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Example.Logging@3.4.1"
+        }
+      ],
+      "supplier": "Organization: Example Labs"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-12",
+      "name": "left-pad-lite",
+      "versionInfo": "0.5.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/left-pad-lite@0.5.1"
+        }
+      ],
+      "supplier": "Person: Release Team"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-13",
+      "name": "@acme-ui/button",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT AND BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/@acme-ui/button@1.6.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-14",
+      "name": "tidy-csv",
+      "versionInfo": "2.0.1",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/tidy-csv@2.0.1"
+        }
+      ]
+    }
+  ]
+}

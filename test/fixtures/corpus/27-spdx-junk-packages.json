@@ -1,0 +1,13 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "name": "junk",
+  "packages": [
+    null,
+    {},
+    {
+      "name": "a",
+      "externalRefs": "x",
+      "licenseConcluded": 42
+    }
+  ]
+}
