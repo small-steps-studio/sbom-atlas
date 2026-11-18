@@ -1,0 +1,224 @@
+{
+  "name": "sbom-atlas",
+  "displayName": "SBOM Atlas",
+  "description": "SBOM files (CycloneDX and SPDX JSON): summary, components, duplicate versions. Pro: license risk review and NTIA minimum elements check. Works offline.",
+  "version": "0.1.0",
+  "publisher": "SmallStepsStudio",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "icon": "media/icon.png",
+  "pricing": "Trial",
+  "homepage": "https://github.com/small-steps-studio/sbom-atlas#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/small-steps-studio/sbom-atlas"
+  },
+  "bugs": {
+    "url": "https://github.com/small-steps-studio/sbom-atlas/issues"
+  },
+  "galleryBanner": {
+    "color": "#2a2f45",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Other",
+    "Linters"
+  ],
+  "keywords": [
+    "sbom",
+    "software bill of materials",
+    "cyclonedx",
+    "spdx",
+    "sbom viewer",
+    "sbom analyzer",
+    "license compliance",
+    "open source licenses",
+    "license risk",
+    "copyleft",
+    "gpl",
+    "ntia minimum elements",
+    "supply chain",
+    "package url",
+    "purl",
+    "dependencies",
+    "components",
+    "duplicate dependencies",
+    "compliance",
+    "audit",
+    "security review",
+    "cdx json",
+    "spdx json",
+    "bom"
+  ],
+  "main": "./src/extension.js",
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
+  "activationEvents": [],
+  "scripts": {
+    "test": "node scripts/run-tests.js",
+    "gate": "node scripts/release-gate.js",
+    "vscode:prepublish": "node scripts/release-gate.js --skip-tests",
+    "package": "npx --yes @vscode/vsce package --no-dependencies",
+    "package:local": "node scripts/package-local.js",
+    "check-vsix": "node scripts/check-vsix.js"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "sbomAtlas.showSummary",
+        "title": "SBOM Atlas: Show Summary",
+        "icon": "$(package)"
+      },
+      {
+        "command": "sbomAtlas.showComponents",
+        "title": "SBOM Atlas: Show Components"
+      },
+      {
+        "command": "sbomAtlas.showDuplicates",
+        "title": "SBOM Atlas: Show Duplicate Components"
+      },
+      {
+        "command": "sbomAtlas.showLicenseRisk",
+        "title": "SBOM Atlas: Show License Risk (Pro)"
+      },
+      {
+        "command": "sbomAtlas.showMinimumElements",
+        "title": "SBOM Atlas: Show NTIA Minimum Elements (Pro)"
+      },
+      {
+        "command": "sbomAtlas.openSample",
+        "title": "SBOM Atlas: Open Sample File"
+      },
+      {
+        "command": "sbomAtlas.openSampleSpdx",
+        "title": "SBOM Atlas: Open Sample SPDX File"
+      },
+      {
+        "command": "sbomAtlas.openWalkthrough",
+        "title": "SBOM Atlas: Open Walkthrough"
+      },
+      {
+        "command": "sbomAtlas.showDocumentation",
+        "title": "SBOM Atlas: Show Documentation"
+      },
+      {
+        "command": "sbomAtlas.reportProblem",
+        "title": "SBOM Atlas: Report A Problem"
+      },
+      {
+        "command": "sbomAtlas.buyPro",
+        "title": "SBOM Atlas: Buy Pro"
+      },
+      {
+        "command": "sbomAtlas.enterKey",
+        "title": "SBOM Atlas: Enter Licence Key"
+      },
+      {
+        "command": "sbomAtlas.licenceStatus",
+        "title": "SBOM Atlas: Show Licence Status"
+      },
+      {
+        "command": "sbomAtlas.removeLicence",
+        "title": "SBOM Atlas: Remove Licence From This Machine"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "sbomAtlas.showSummary",
+          "when": "resourceFilename =~ /\\.(cdx|spdx)\\.json$/ || resourceFilename =~ /^(bom|sbom)\\.json$/",
+          "group": "navigation@90"
+        }
+      ]
+    },
+    "walkthroughs": [
+      {
+        "id": "gettingStarted",
+        "title": "Get started with SBOM Atlas",
+        "description": "Open a sample SBOM, see its summary, components and duplicates, and try the Pro license risk review and NTIA minimum elements check in the free 14-day trial.",
+        "steps": [
+          {
+            "id": "sbomAtlas.step.openSample",
+            "title": "Open a sample file",
+            "description": "SBOM Atlas reads software bills of materials in the JSON formats of CycloneDX and SPDX: the list of components a product is built from, with versions, licenses and package URLs. Open the invented sample to follow along, or open an SBOM of your own.\n[Open Sample File](command:sbomAtlas.openSample)",
+            "media": {
+              "markdown": "media/walkthrough/open-sample.md"
+            },
+            "completionEvents": [
+              "onCommand:sbomAtlas.openSample"
+            ]
+          },
+          {
+            "id": "sbomAtlas.step.free",
+            "title": "Run Show Summary",
+            "description": "The SBOM at a glance: format and version, the product it describes, how many components carry a version, a license and a package URL, and which ecosystems they come from. The report opens as a new Markdown document; your file is not changed.\n[Show Summary](command:sbomAtlas.showSummary)",
+            "media": {
+              "markdown": "media/walkthrough/free.md"
+            },
+            "completionEvents": [
+              "onCommand:sbomAtlas.showSummary"
+            ]
+          },
+          {
+            "id": "sbomAtlas.step.more",
+            "title": "Use the other free reports",
+            "description": "Every free report works without a key, an account or a network connection: Show Components, Show Duplicate Components.\n[Show Components](command:sbomAtlas.showComponents)\n[Show Duplicate Components](command:sbomAtlas.showDuplicates)",
+            "media": {
+              "markdown": "media/walkthrough/more.md"
+            },
+            "completionEvents": [
+              "onCommand:sbomAtlas.showComponents",
+              "onCommand:sbomAtlas.showDuplicates"
+            ]
+          },
+          {
+            "id": "sbomAtlas.step.pro",
+            "title": "Try Pro free for 14 days",
+            "description": "The first Pro command you run starts a free 14-day trial on this computer, with no key and no network: Show License Risk, Show NTIA Minimum Elements.\n[Show License Risk](command:sbomAtlas.showLicenseRisk)",
+            "media": {
+              "markdown": "media/walkthrough/pro.md"
+            },
+            "completionEvents": [
+              "onCommand:sbomAtlas.showLicenseRisk",
+              "onCommand:sbomAtlas.showMinimumElements"
+            ]
+          },
+          {
+            "id": "sbomAtlas.step.licence",
+            "title": "Licence and help",
+            "description": "Buy Pro (Personal USD 19, Business USD 39 per user), enter a key, see the licence status, or report a problem.\n[Show Licence Status](command:sbomAtlas.licenceStatus)\n[Report A Problem](command:sbomAtlas.reportProblem)",
+            "media": {
+              "markdown": "media/walkthrough/licence.md"
+            },
+            "completionEvents": [
+              "onCommand:sbomAtlas.licenceStatus"
+            ]
+          }
+        ]
+      }
+    ],
+    "configuration": {
+      "title": "SBOM Atlas",
+      "properties": {
+        "sbomAtlas.maxFileSizeMB": {
+          "type": "number",
+          "default": 50,
+          "minimum": 0.1,
+          "maximum": 50,
+          "markdownDescription": "Largest file (in MB) a report reads, up to 50 MB (VS Code passes files only up to 50 MB to extensions). Larger files are refused with a message."
+        },
+        "sbomAtlas.openReportsAsPreview": {
+          "type": "boolean",
+          "default": true,
+          "markdownDescription": "Open each report in the Markdown preview as well as in a new editor."
+        }
+      }
+    }
+  }
+}
